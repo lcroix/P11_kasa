@@ -1,0 +1,37 @@
+
+
+.location {
+  margin: 50px;
+    height: 340px;
+    position: relative; /* Ajouté pour positionner le titre absolument par rapport à l'article */
+
+}
+
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+}
+.dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, rgba(0, 0, 0, 0.5) 100%);    border-radius: 10px;
+  }
+
+.title {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    padding: 5px; 
+    margin: 0;
+    color: #fff;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 500;
+}

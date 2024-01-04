@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.navBar{
+    display: flex;
+    gap: 50px;
+}
+.link  {
+    color: #FF6060;
+    font-size: 24px;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+    position: relative;
+}

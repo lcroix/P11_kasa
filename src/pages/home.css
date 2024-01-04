@@ -1,0 +1,12 @@
+
+.cart{
+    background-color: #F6F6F6;
+    border-radius: 25px;
+}
+.grid{
+   
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       
+    
+}
