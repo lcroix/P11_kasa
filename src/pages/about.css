@@ -1,0 +1,8 @@
+.containerAbout {
+  margin-bottom: 38px;
+}
+@media screen and (max-width: 768px) {
+  .containerAbout {
+    margin-bottom: 20px;
+  }
+}

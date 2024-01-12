@@ -13,7 +13,7 @@ const About = () => {
           image={imagePage2}
           altText="Chez vous, partout et ailleurs"
         />
-        <section>
+        <section className="containerAbout">
                 {data.map((about)=> (
                     <Collapse
                         key={about.title} 

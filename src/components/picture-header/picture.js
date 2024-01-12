@@ -6,9 +6,13 @@ function PictureHeader({ image, altText }) {
   const location = useLocation();
   return (
     <div className="picture">
-      <img className="pictureImg" src={image} alt={altText} />
-      <div className="darkOverlay"></div>
+      <div className="pictureImg">
+      <img className="image" src={image} alt={altText} />
+      </div>
+      <div className="titleContainer">
+
       {location.pathname === "/" && <p className="pictureText">{altText}</p>}
+      </div>
     </div>
   );
 }

@@ -19,6 +19,7 @@ const HomePage = () => {
             {data.map((location) => (
               <Location
                 id={location.id}
+                key={location.id}
                 title={location.title}
                 pictures={location.cover}
               />

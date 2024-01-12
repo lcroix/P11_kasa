@@ -19,12 +19,6 @@ const Slideshow = ({ images }) => {
 
     return (
         <div className="slideshowContainer">
-
-            {/* {images.map((image, index) => {
-                return <div key={index}>
-                            {index === current && <img className="housingImg" src={image} alt="housing" />}
-                        </div>;
-            })} */}
             <div><img className="housingImg" src={images[current]} alt="housing" /></div>
 
             {length > 1 && ( 

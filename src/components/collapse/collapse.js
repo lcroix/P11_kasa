@@ -16,7 +16,7 @@ function Collapse({title , text}) {
     : text;
 
     return (
-        <div className="container">
+        <div className="containerCollapse">
             <button className="button" onClick={toggleCollapse}>
                 {title}
                 <FontAwesomeIcon 
